@@ -1,0 +1,158 @@
+.news-container {
+  max-width: 1280px;
+  /* margin: 5rem auto; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 0 2.5rem; */
+}
+
+.row {
+  position: relative;
+}
+
+.news-item {
+  width: calc(565px / 3);
+
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+/* .news-item:hover .news-heading {
+    font-size: 26px;
+} */
+
+.news-heading {
+  transition: all 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.news-active {
+  height: 4px;
+  width: calc(565px / 3);
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  top: 40px;
+}
+
+.watch-more {
+  width: 100%;
+  text-align: center;
+}
+
+.watch-more-btn {
+  padding: 12px 18px;
+  border: 1px solid #333;
+  width: 120px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.sm-poster {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.sm-poster img {
+  width: 55px;
+  height: 55px;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+
+.film-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 50px;
+}
+
+.sm-poster p:hover,
+.film-title:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.sm-poster p {
+  font-size: 17px;
+}
+
+/* @media screen and (max-width: 576px) {
+  .news-container {
+    padding: 0 0.5rem;
+  }
+
+  .news-heading {
+    font-size: 18px;
+  }
+
+  .news-active {
+    display: none;
+  }
+
+  .news-item {
+    width: calc(100% / 3);
+    text-align: center;
+    cursor: pointer;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+} */
+@media screen and (max-width: 576px) {
+  .watch-more {
+    margin-bottom: 2rem;
+  }
+  .news-container .row {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .news-container {
+    padding: 0 2rem;
+    margin: 2rem 0;
+  }
+  .row .col-md-6 img {
+    width: 100%;
+  }
+  .news-container .row {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news-container {
+    padding: 0 1.7rem;
+  }
+  .news-item h1 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .news-container {
+    padding: 0 4.7rem;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .news-container {
+    padding: 0 3rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .news-container {
+    padding: 0 5.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .news-container {
+    padding: 0 9.7rem;
+    margin: 3rem auto;
+  }
+}

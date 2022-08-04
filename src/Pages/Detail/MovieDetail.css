@@ -1,0 +1,227 @@
+.movieDetail {
+  background-color: #0a2029;
+  /* height: 1250px; */
+  min-height: 100vh;
+  background-image: url("https://tcdtist-tix-clone.vercel.app/static/media/backapp.b46ef3a1.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.movie-container {
+  padding-top: 150px;
+  max-width: 1280px;
+}
+.movie-container .row {
+  display: flex;
+  padding: 0 12rem;
+  /* align-items: center; */
+}
+.movie-image {
+  transition: all 0.5s;
+}
+.movieDescription {
+  display: block;
+  display: -webkit-box;
+  height: 16px * 1.3 * 3;
+  font-size: 16px;
+  line-height: 1.3;
+  -webkit-line-clamp: 3; /* số dòng hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+}
+.col-1 {
+  width: 25%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.movie-image {
+  position: relative;
+}
+.movie-image img {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.text-info-movie {
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.movie-image:hover .btnTrailer {
+  display: block;
+}
+
+.text-info-movie h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fb4226;
+
+}
+.text-info-movie p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 17px;
+}
+
+.text-info-movie a {
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: medium;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: #fb4226;
+  transition: all 0.3s ease;
+}
+.text-info-movie a:hover {
+  color: #fff;
+  background-color: #bf3925;
+}
+
+.rated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rated h2 {
+  color: #fff;
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  line-height: 100px;
+  font-size: 3rem;
+}
+.start i {
+  margin-top: 2rem;
+  color: #fb4226;
+  font-size: 1.3rem;
+}
+
+.btnTrailer {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  margin: 1rem 0 1rem 0;
+  position: absolute;
+  left: 28%;
+  top: 30%;
+  display: none;
+}
+.btnTrailer:hover {
+  background-color: transparent;
+  color: rgb(168, 165, 165);
+  border-color: rgb(168, 165, 165);
+}
+
+/* CINEMA */
+.cinema {
+  background-color: #fff;
+  margin-top: 5rem;
+  height: 100%;
+}
+.cinema .row {
+  margin-right: 0;
+}
+.cinema .row .col-1 {
+  width: 25%;
+  border-right: 1px solid #0000002e;
+  padding: 0 0 0 4rem;
+}
+.cinema .row .col-2 {
+  width: 75%;
+  padding: 0;
+}
+.cinema-list {
+  display: flex;
+  flex-direction: column;
+}
+.cinema-list-detail {
+  margin: 1rem 0;
+}
+.cinema-img img {
+  width: 70px;
+  height: 70px;
+}
+.cinema-img {
+  display: flex;
+  align-items: center;
+}
+.cinema-img p {
+  margin-left: 1.5rem;
+  font-size: 17px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.theater-list {
+  padding: 0 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.theater-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.theater-item p {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(139, 195, 74);
+  margin-bottom: 0;
+}
+.theater-item span {
+  color: rgb(131, 130, 130);
+}
+.theater-item img {
+  width: 65px;
+  height: 65px;
+  margin-right: 1.5rem;
+}
+
+.showtimes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.showtimeBtn {
+  color: #9e9e9e;
+  border: 1px solid #e4e4e4;
+  cursor: pointer;
+  margin: 0px 16px 16px 0px;
+  padding: 8px 8px 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: rgba(246, 246, 246, 0.5);
+  display: flex;
+  width: 170px;
+  align-items: center;
+}
+.showtimeBtn:hover {
+  background-color: rgb(172, 171, 171);
+}
+.showtimeBtn p {
+  color: #108f3e;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.showtimeBtn h6 {
+  margin: 0 0.5rem;
+}
+.showtimeBtn span {
+  color: red;
+}

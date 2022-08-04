@@ -1,0 +1,9 @@
+.slick-dots li button::before {
+  font-size: 1rem;
+}
+.slick-dots li  {
+    transition: ease 2s;
+}
+.slick-dots li.slick-active button::before {
+  color: rgb(251, 66, 38);
+}

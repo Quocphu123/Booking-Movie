@@ -1,0 +1,188 @@
+.apps {
+  background: url(https://tcdtist-tix-clone.vercel.app/static/media/backapp.b46ef3a1.jpg);
+  background-size: contain;
+  padding: 80px 0 80px 0;
+}
+
+.apps .container-xl {
+  padding: 0 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-img-app {
+  max-width: 100%;
+  height: auto;
+  padding: 0 26%;
+  display: block;
+  position: relative;
+}
+
+.banner-img {
+  position: relative;
+  top: 0;
+}
+
+.banner-img-slider {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3.6% 28.9% 0% 29.2%;
+  position: absolute;
+}
+
+.banner-img-slider img {
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  color: #fff;
+  padding: 0 4rem;
+}
+.text h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+
+  line-height: 5rem;
+}
+
+.text p {
+  margin: 1rem 0 3rem 0;
+  font-size: 18px;
+}
+.text-download {
+  color: #fff;
+  border: none;
+  padding: 18px 38px;
+  font-size: medium;
+  margin-top: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: #fb4226;
+  transition: all 0.3s ease;
+}
+.text-download:hover {
+  color: #fff;
+  background-color: #bf3925;
+}
+.text p a {
+  color: white;
+  text-decoration: underline;
+}
+@media screen and (min-width: 900px) {
+  .text h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .text-download {
+    padding: 14px 34px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .content {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+
+  .text {
+    padding: 0;
+    flex: none;
+    text-align: center;
+  }
+
+  .app-edition {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .text p {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .app-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-download {
+    padding: 18px 20px;
+    margin-top: 16px;
+    font-size: small;
+  }
+
+  .banner-img-slider {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3.6% 28% 0% 28%;
+  }
+
+  .banner-img-app {
+    max-width: 100%;
+    height: auto;
+    padding: 0 25%;
+    display: block;
+    position: relative;
+  }
+
+  .banner-img {
+    position: relative;
+    flex: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .apps-container {
+    padding: 0 1.69rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .apps-container {
+    padding: 0 6rem;
+  
+  }
+  .content .text {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .apps-container {
+    padding: 0 3.5rem;
+  }
+  .content .text {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .apps-container {
+    padding: 0 6rem;
+  }
+ 
+}
+
+@media screen and (min-width: 1280px) {
+  .apps-container {
+    padding: 0 9.5rem;
+    max-width: 1280px;
+    margin: auto;
+  }
+}
